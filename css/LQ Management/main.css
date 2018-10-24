@@ -1,0 +1,172 @@
+
+
+/* Nav Buttons */
+.nav-logo {
+    max-width: 22%;
+    max-height: 22%;
+}
+
+
+.navbar{
+    background-color: #69021C !important;
+    min-height: 75px;
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-text {
+  color: #EEE8AA !important;
+
+}
+
+.column-title {
+  font-size: 20px;
+  font-style: italic;
+  color: #69021C;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: white;
+
+  }
+
+/* Nav Buttons */
+
+  .jumbotron {
+    background-image: url(img/BurgundyLouisville.png);
+    background-size: cover;
+    background-color: #69012C;
+    padding: 1em;
+    border-radius: 0;
+  }
+
+
+  hr {
+    width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  background-color:#EEE8AA;
+  opacity: 1;
+
+}
+
+
+  .img {
+    max-width: 40%;
+    max-height: 100%;
+
+  }
+
+  .footer {
+    height: 100px;
+     max-width: 100%;
+     background-color: #69012C;
+     color: white;
+     font-style: italic;
+     text-align: right;
+
+  }
+
+  .footer-logo {
+    padding-top: 10px;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .information, .container {
+    text-align:center;
+    max-width: 50em;
+
+  }
+
+
+
+
+/* Media Queries */
+
+/* Smartphone Display */
+@media screen and (max-width : 600px) {
+    .jumbotron {
+      background-image: url(img/BurgundyLouisville.png);
+      background-size: cover;
+      background-color: #69012C;
+      padding: 1px;
+    }
+    .jumbo-text {
+      font-size: 2em;
+      text-align: center;
+    }
+    .navbar-brand,
+    .brand  {
+
+      font-size: 1em;
+      color: #EEE8AA !important;
+    }
+    .navbar-default,
+    .navbar-toggler,
+    .navbar-collapse {
+        border-color: #EEE8AA !important;;
+    }
+    .img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+
+    .nav-logo {
+        max-width: 10%;
+        max-height: 10%;
+    }
+
+
+    .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#EEE8AA' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+}
+
+/* Tablet Display */
+@media  (min-width : 600px) and (max-width : 1000px) {
+  .jumbo-text {
+    font-size: 1em;
+    text-align: center;
+  }
+  .navbar-brand,
+  .brand  {
+    font-size: 1em;
+    color: #EEE8AA !important;
+  }
+  .navbar-default,
+  .navbar-toggler,
+  .navbar-collapse {
+      border-color: #EEE8AA !important;;
+  }
+
+  .navbar-toggler
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#EEE8AA' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+  }
+  .nav-logo {
+      max-width: 10%;
+      max-height: 10%;
+  }
+}
+
+/* Desktop Display */
+@media screen and (min-width : 1020px) {
+
+  .nav-logo {
+      max-width: 70%;
+      max-height: 70%;
+  }
+
+}
